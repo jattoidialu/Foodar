@@ -1,14 +1,33 @@
-body {
-    background: url(https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80);
-    background-size: cover;
-    background-position: center;
-    font-family: Nunito;
+body, html {
+   /**  background: url(https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80);*/
+   margin: 0;
+   padding: 0;
+   display: block;
+   font-family: 'Droid Serif', serif;
+   font-size: 15px;
+   font-weight: normal;
+   line-height: 26px;
 }
 
 html {
     height: 100%;
 }
 
+#underline{
+    height: 3px;
+    background: #eaeaea;
+}
+
+#header-text{
+    font-family: 'Aguafina Script', cursive;
+    color: #ccad52;
+    font-size: 50px;
+    letter-spacing: 9px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    line-height: 36px;
+
+}
 h1 {
     color: green;
     font-size: 5em;
@@ -21,9 +40,4 @@ h1 {
     text-align: center;
     padding-top: 2%;
     font-family: "Nunito",sans-serif;
-    color: red
-}
-
-#text-group {
-    color: white;
 }
