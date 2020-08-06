@@ -12,24 +12,45 @@
 <h1>Register</h1>
 <p>Please fill out the form below:</p>
 <div id= "form">
-    <span>
+   
         <p><legend>Details</legend></p>
-        <labels>First Name: <input required name="firstName"/><labels><br/>
-        <labels>last Name: <input required name="LastName"/><labels><br/>
-        <labels>Email: <input type="email" required name="email"/><labels><br/>
-        <labels>Password: <input required type="password" name="password"/><labels><br/>
-    </span>
-    <span>
+        <div>
+          <div>
+           <input required name="firstName" placeholder="First Name"/>
+            </div>
+             <div>
+             <input required name="LastName"placeholder="LastName"/>
+              </div>
+            <div>
+           <input required name="email"placeholder="email"/>
+          </div>
+         <div>
+        <input required name="password"placeholder="password"/>
+       </div>
+    </div>
+    
         <p><legend>Address</legend></p>
-        <label>Street Address:<input required name="street"/></label><br/>
-        <label>City: <input required name="city"/></label><br/>
-        <label>State: <input required name="state"/></label><br/>
-        <label>Zipcode: <input required name="zipCode"/></label><br/>
-    </span>
+        <div>
+          <div>
+          <input required name="Street" placeholder="Street"/>
+           </div>
+            <div>
+             <input required name="City" placeholder="City"/>
+              </div>
+             <div>
+           <input required name="State" placeholder="State"/>
+         </div>
+        <div>
+        <input required name="ZipCode"placeholder="ZipCode"/>
+      </div>
+    </div>
+   
+
+    <div class="form-button">
+      <p><button type="submit">Register</button></p>
+   </div>
 </div>
-<div class="form-button">
-    <p><button type="submit">Register</button></p>
-</div>
+
 </section>
 </body>
 </html>
