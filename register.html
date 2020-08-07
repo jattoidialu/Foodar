@@ -1,56 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Register Now</title>
-    <link href="./css/style.css" type="text/css" rel="stylesheet">
-</head>
-<body>
-    <div class="FOODAR">
-        <a href="index.html"><img src="img/logo.png"></a>
-    </div>
-<section id="register-form">
-<h1>Register</h1>
-<p>Please fill out the form below:</p>
-<div id= "form">
-   
-        <p><legend>Details</legend></p>
-        <div>
-          <div>
-           <input required name="firstName" placeholder="First Name"/>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Aguafina+Script" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <section id="services">
+            <div>
+                <h2>Register</h2>
+                <p>Please fill out the Form Below</p>
+
+                <div>
+                    <div id="details">
+                    <h3>Details:</h3>
+                    <br/>
+                     <input type="text" name="email" placeholder="Email"/>
+                     <input type="password" name="password" placeholder="Password"/>
+                     <br/><br/>
+
+                     <input type="text" name="firstName" placeholder="First Name"/>
+                     <input type="text" name="lastName" placeholder="Last Name"/>
+                     <br/><br/>
+                    </div>
+                    <div id="address">
+                     <input type="text" name="address" placeholder="Address"/>
+                     <input type="text" name="street" placeholder="Street"/>
+                     <br/><br/>
+
+                     <input type="text" name="city" placeholder="City"/>
+                     <input type="text" name="zipcode" placeholder="Zipcode"/>
+                     <br/><br/>
+                    </div>
+
+                    <div>
+                        <button>Register</button>
+                    </div>
+                    
+                </div>
             </div>
-             <div>
-             <input required name="LastName"placeholder="LastName"/>
-              </div>
-            <div>
-           <input required name="email"placeholder="email"/>
-          </div>
-         <div>
-        <input required name="password"placeholder="password"/>
-       </div>
-    </div>
-    
-        <p><legend>Address</legend></p>
-        <div>
-          <div>
-          <input required name="Street" placeholder="Street"/>
-           </div>
-            <div>
-             <input required name="City" placeholder="City"/>
-              </div>
-             <div>
-           <input required name="State" placeholder="State"/>
-         </div>
-        <div>
-        <input required name="ZipCode"placeholder="ZipCode"/>
-      </div>
-    </div>
-   
+        </section>
 
-    <div class="form-button">
-      <p><button type="submit">Register</button></p>
-   </div>
-</div>
-
-</section>
-</body>
+    </body>
 </html>
