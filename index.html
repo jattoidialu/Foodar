@@ -1,16 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Foodar Delivery</title>
-<link rel="stylesheet" type="text/css" href="style.css"/>
-<style>
-    #green {
-        background: green;
-        color: white;
-    }
-</style>
+    <title>Foodar Food Delivery</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Aguafina+Script" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <p></p>
+        <div id="headAdvert">
+          <p>Today's Special Offer: <span id="dailyOffer">Save up to 25% on select Sit-down meals!</span></p>
+        </div>
+    <div class="FOODAR">
+        <a href="index.html">
+            <img src="img/logo.png">
+        </a>
+    </div>
+    <header>
+        <nav>
+          <ul>
+            <a href="./about.html"><li>About Foodar</li></a>
+            <a href="./register.html/Sign-in"><li>Register/Sign-in</li></a>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="banner">
+          <div class="banner-title">
+            <h1>Foodar</h1>
+            <h2>Your Food. Delivered.</h2>
+          </div>
+          <div class="banner-content">
+            <h3>Find a driver near you!</h3>
+            <p>Type in your 5-digit zipcode below and click "Go!" to find a driver near you.</p>
+            <p>(Valid options: Zip Codes for St Louis, MO (63109) and Creve Coeur, MO(63318-63321)</p>
+            <div>
+              <input id="userZip" type="number" style="width: 8rem;">
+              <input id="cityChecker" type="submit" value="Go!"/>
+              <div id="zipResult"></div>
+            </div>
+          </div>
+        </section>
 </body>
 </html>
