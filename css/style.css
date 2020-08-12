@@ -1,16 +1,30 @@
+
+
 body, html {
-   /**  background: url(https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80);*/
-   margin: 0;
-   padding: 0;
-   display: block;
-   font-family: 'Droid Serif', serif;
-   font-size: 15px;
-   font-weight: normal;
-   line-height: 26px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: 'Droid Serif', serif;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 26px;
+    height: 100%;
 }
 
-html {
-    height: 100%;
+header {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background: rgba(255, 255, 255,0.25);
+}
+
+header, h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+#underline{
+    height: 3px;
+    background: #eaeaea;
 }
 
 #header-text{
@@ -37,6 +51,13 @@ h1 {
     font-family: "Nunito",sans-serif;
 }
 
+ul {
+    list-style-type: none;
+    text-align: right;
+    
+   
+}
+
 .banner-title {
     display: flex;
     flex-direction: column;
@@ -51,10 +72,123 @@ h1 {
     justify-content: center;
     align-content: space-around;
     text-align: center;
-    background-color: rgba(255,255,255,.85);
     width: 60%;
     max-width: 40rem;
+    margin: 0 auto; 
+}
+
+.menu {
+    width: 25%;
+    float: right;
+}
+
+.menu ul {
+    margin: 24px 10px;
+}
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: visible;
+}
+
+#background-image {
+    width: 100%;
+    height: 100%;
+    background: url(../img/banner-background.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#background-image h1 {
     margin: 0 auto;
-    padding: 0 0 2rem;
-    border-radius: 15px;
-    border: 3px outset;
+    padding: 0;
+    position: relative;
+    top: 25%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40pt;
+    padding: 2em;
+    text-shadow: 1px 1px 1px black;
+}
+
+.findus {
+    background: url(../img/background-findus.jpg);
+    background-attachment: fixed;
+    color: #fff;
+    text-shadow: 1px 0 0 black;
+    display: block;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-content {
+    min-height: 240px;
+    padding: 3em;
+}
+
+.findus h3 {
+    text-align: center;
+    text-shadow: 1px 0 0 black;
+    text-transform: uppercase;
+}
+
+#yourLocation p {
+    text-align: center;
+    
+}
+
+
+.inp-grp {
+    width: 290px;
+    margin: 0 auto;
+}
+#yourLocation input {
+    padding: 1px;
+    font-size: 14pt;
+    color: #00006B;
+    border: 1px solid #D69000;
+}
+
+
+#yourLocation input[type="submit"] {
+    background: #f7a700;
+    border: 2px solid #D08C00;
+    position: relative;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
+    padding: 1px;
+    font-size: 14pt;
+}
+
+footer {
+    padding: 10px;
+    background: #202020;
+    color: white;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+
+#sitemap {
+    margin-right: 3px;  
+    float: left;
+}
+
+.foot-title h3 {
+    color: #fff;
+    text-shadow: none;
+}

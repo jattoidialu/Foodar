@@ -7,38 +7,63 @@
 <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
 </head>
 <body>
-        <div id="headAdvert">
-          <p>Today's Special Offer: <span id="dailyOffer">Save up to 25% on select Sit-down meals!</span></p>
-        </div>
+  <header>
     <div class="FOODAR">
         <a href="index.html">
             <img src="img/logo.png">
         </a>
-    </div>
-    <header>
-        <nav>
+        <nav class="menu">
           <ul>
-            <a href="./about.html"><li>About Foodar</li></a>
-            <a href="./register.html/Sign-in"><li>Register/Sign-in</li></a>
+              <li>
+                  <a href="#">Sign-in</a>
+              </li>
+              <li>/</li>
+              <li>
+                  <a href="register.html">Register</a>
+              </li>
+              <li>/</li>
+              <li>
+                  <a href="request.html">Request</a>
+              </li>
           </ul>
-        </nav>
-    </header>
+      </nav>
+    </div>
+  </header>
     <main>
-        <section id="banner">
-          <div class="banner-title">
-            <h1>Foodar</h1>
-            <h2>Your Food. Delivered.</h2>
-          </div>
+        <section id="background-image">
+            <h1>House Of Food</h1>
+        </section>
+        <section id ="yourLocation" class="findus">
           <div class="banner-content">
             <h3>Find a driver near you!</h3>
             <p>Type in your 5-digit zipcode below and click "Go!" to find a driver near you.</p>
             <p>(Valid options: Zip Codes for St Louis, MO (63109) and Creve Coeur, MO(63318-63321)</p>
-            <div>
-              <input id="userZip" type="number" style="width: 8rem;">
+            <div class="inp-grp">
+              <input id="cityZip" type="number" class="inp-wd;">
               <input id="cityChecker" type="submit" value="Go!"/>
               <div id="zipResult"></div>
             </div>
           </div>
         </section>
+        <footer>
+          
+            <div id="sitemap">
+              <div class="foot-title">
+                <ul>
+                  <li>
+                    <a href="#">Home</a>
+                    <li>
+                      <a href="register.html">Register</a>
+                      <li>
+                        <a href="about.html">About Fooda</a>
+                      </li>
+                    </li>
+                  </li>
+                </ul>
+              </div>
+          
+            </div>
+        
+        </footer>
 </body>
 </html>
