@@ -170,9 +170,9 @@ ul {
 }
 
 footer {
-    padding: 10px;
+    padding: 100px;
     background: #202020;
-    color: white;
+   
 }
 
 .container {
@@ -183,12 +183,13 @@ footer {
    
 }
 
-#sitemap {
-    margin-right: 3px;  
-    float: left;
+ 
+#listItems {
+    text-align:center;
+    
+    
 }
 
-.foot-title h3 {
-    color: #fff;
-    text-shadow: none;
+li a {
+    color: white;
 }
