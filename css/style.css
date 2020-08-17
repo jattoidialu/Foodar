@@ -170,7 +170,7 @@ ul {
 }
 
 footer {
-    padding: 100px;
+    padding: 40px;
     background: #202020;
    
 }
@@ -185,11 +185,23 @@ footer {
 
  
 #listItems {
-    text-align:center;
-    
-    
+    text-align:left;    
 }
-
 li a {
     color: white;
+}
+
+#listtitle {
+    text-align: center;     
+}
+
+li  {     
+    color: white;
+
+}
+
+.copy {
+    width: 100%;
+    text-align: center;
+    color: #fff;
 }
