@@ -92,7 +92,7 @@ ul {
 
 .menu ul li a {
     text-decoration: none;
-    color: #000;
+    color: black;
     text-transform: uppercase;
     font-size: 14px;
     position: visible;
@@ -185,11 +185,9 @@ footer {
 
  
 #listItems {
-    text-align:left;    
+    text-align:center;    
 }
-li a {
-    color: white;
-}
+
 
 #listtitle {
     text-align: center;     
@@ -204,4 +202,17 @@ li  {
     width: 100%;
     text-align: center;
     color: #fff;
+}
+
+li a {
+    color: white;
+}
+
+a:hover{
+    color: yellow;
+    background: orange;
+}
+a:active{
+    color:green;
+    background: beige;
 }
