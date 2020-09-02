@@ -204,6 +204,7 @@ li  {
     color: #fff;
 }
 
+<<<<<<< Updated upstream
 li a {
     color: white;
 }
@@ -215,4 +216,46 @@ a:hover{
 a:active{
     color:green;
     background: beige;
+=======
+.heading-text {
+    font-family: 'Aguafina Script', cursive;
+    color: #ccad52;
+    font-size: 50px;
+    letter-spacing: 9px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    line-height: 36px;
+ 
+}
+.heading {
+   text-align: center;
+}
+
+.underline {
+    height: 3px;
+    background: #eaeaea;
+    line-height: 26px;
+    
+}
+
+.float-wrapper {
+    display: block;
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.restaurant {
+    width: 33%;
+    padding: 1em;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+ .restaurant {
+    text-align: center;
+}
+ .img {
+    position: center;
+>>>>>>> Stashed changes
 }

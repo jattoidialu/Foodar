@@ -40,11 +40,30 @@
             <p>(Valid options: Zip Codes for St Louis, MO (63109) and Creve Coeur, MO(63318-63321)</p>
             <div class="inp-grp">
               <input id="cityZip" type="number" class="inp-wd;">
-              <input id="cityChecker" type="submit" value="Go!"/>
+              
+              <input id="cityChecker" type="submit" value="Go!" onclick="displayAlert()"/>
               <div id="zipResult"></div>
             </div>
           </div>
         </section>
+        <div class="heading">
+          <h3 class="heading-text">Resturant Recipes</h3>
+          <div class="underline"></div>
+        </div>
+        <div class="float-wrapper">
+          <div class="resturant">
+            <img src="img/burger.jpg" alt title>
+            <h3>Fish & Chips Gallore!</h3>
+          </div>
+          <div class="resturant">
+            <img src="img/dessert.jpg" alt title>
+            <h3>Yeah Desserts</h3>
+          </div>
+          <div class="resturant">
+            <img src="img/fish.jpg" alt title>
+            <h3>Bubba Joe's</h3>
+          </div>
+        </div>
         <footer>         
             <div id="sitemap">          
                 <ul id="listItems">
@@ -71,5 +90,19 @@
         <p>(c) 2015. All rights reserved.</p>
       </section>
         </footer>
+        <script>
+           function displayAlert(){
+           var zipCode = document.getElementById('cityZip').value;
+           if(zipCode == ""){
+             alert("Please enter a valid zipCode");
+           }
+           else if(zipCode === "63132"){
+             alert("Welcome to Creve Couer ZIP " +  zipCode)
+           }else{
+             alert("You Entered " + zipCode);
+           }
+           
+           }
+        </script>
 </body>
 </html>
